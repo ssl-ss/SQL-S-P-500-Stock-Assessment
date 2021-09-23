@@ -97,7 +97,7 @@ I chose the S&P 500 companies because they are considered the most healthy corpo
 
 ## Data 
 
-#### Scraped Data 
+#### Scraped Data: 
 
 - S&P500_company_financials.csv:
   * Contains symbols, profits, dividend yields, P/S ratios, P/E ratios, P/B ratios, D/E ratios, and Free cash flows of the companies
@@ -110,6 +110,25 @@ I chose the S&P 500 companies because they are considered the most healthy corpo
 - company_employees.csv:
   * Contains symbols and number of employees per company
   * From CSIMarket
+
+- stock_price.csv:
+  * Contains symbols and stock prices of the companies 
+  * From Ycharts as of 9/22/2021
+
+- company_weights.csv: 
+  * Contains the names and weights (i.e. how much impact one company has in the S&P 500) of the companies 
+  * From Finasko (https://finasko.com/sp-500-companies-weightage/)
+
+- company_dividends.csv:
+  * Contains the symbols and company dividends from 2019 to 2021   
+  * From Nasdaq
+
+- company_eps.csv:
+  * Contains the symbols and company eps from 2019 to 2021   
+  * From Nasdaq
+
+
+
 
   
 #### Downloads:
