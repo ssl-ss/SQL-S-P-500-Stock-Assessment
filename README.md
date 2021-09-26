@@ -55,11 +55,11 @@ I chose the S&P 500 companies because they are considered the most healthy corpo
       * A higher dividend yield means higher return
       * “The current average S&P 500 dividend yield is 1.80%. The average between 2008 and 2018 has hovered around 2%. This suggests that a dividend yield of 2% or more would be considered good or at least above average. And the best-yielding do better than that, often around 4%-5%” <sup>[5]<sup>
       
-***6. Profit***
-
-   - Profit = revenue - cost 
+***6. Gross Profit Margin***
+   - Gross Profit Margin = (Revenue - Cost) / Revenue
+   - It measures a company’s profitability 
    - Desirable:
-      * Y3_Profit > Y2_Profit > Y1_Profit** 
+      * Higher than other companies in the same sector
 
 ***7. Dividends***
 
@@ -137,4 +137,26 @@ I chose the S&P 500 companies because they are considered the most healthy corpo
   * Contains names, tickers/symbols, and sectors of the companies 
   * From https://topforeignstocks.com/indices/components-of-the-sp-500-index/
 
-
+## Files
+   
+   **Main.sql**
+      - The MySQL script contains commands to 
+   
+         * create, join, and union tables
+         * select data based on simple (e.g. "WHERE") and complex (e.g. "CASE WHEN") conditions 
+         * apply aggregate functions to columns 
+         * generate nested subqueries and common table expression
+   
+   **Web Scraping.ipynb**
+   
+      - The Python script contains code to scrape data from multiple web sources 
+      - It involves the usage of beautifulsoup, pandas, requests, selenium, and re packages
+   
+   **stock vis.twb**
+   
+      - The Tableau visualizations (e.g. bar chart, pie chart, map, etc.) 
+   
+   **assessment results.pdf**
+   
+      - The pdf report includes assessment results and visualizations 
+   
