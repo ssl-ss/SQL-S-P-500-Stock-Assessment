@@ -1,5 +1,4 @@
 # SQL-S-P-500-Stock-Assessment
-#### Author: Senling Shu
 ##### Updated: 9/21/2021
 
 
